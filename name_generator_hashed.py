@@ -22,6 +22,5 @@ for i in range(len(email_l)):
     hash_pwd=hashlib.sha256(pwd.encode())
     pwd_l.append([hash_pwd.hexdigest()])
 
-d={}
 for i in range(len(email_l)):
     print(email_l[i][0],":",pwd_l[i][0])
